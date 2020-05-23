@@ -26,16 +26,16 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     }
-  },
+  }
   //Set up upload files to google cloud CDN
-  "type": "service_account",
-  "project_id": "canavi-dev",
-  "private_key_id": "aced1866abbb897d19dc58b0ae037bbff19f198f",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDttioKKccIjK/y\n6KncWgYYD0U/PgeU3tH+evQMeIH9bgOPR7BNDErerDGmXmM+JbCkI2uwi1U45sJ3\nLYiHsShSY1GUVH4mWapYp3Nd2ID3FG/hj97VwT+MHa74Rsi5VSl783iM60qaMO3q\nZCpdWjEASqMWIa3uliYKGgmbr8zGaKVqDcyQ14NpqclVeC0lYaSLjooRU5C1uhBg\nkkXMoyatD4aLgNwT6Q+KtXFnOwvUOYrn1ue0MgoHnfBbw/V9DPYiJeXZjakQM5il\nAR64W1Isp+Qa2JFP0q2utQjYcqzDuCx1+ZKPf7XoNvtuKr0/mdMFu5OLh3oxe3b9\ngPTkGqTtAgMBAAECggEAC69QKra6A2gTABBCxUOhmA4sG7s7WSyIywcVNwW3chM1\n1pWyC1+G0KJLQH/URgpJQBBDq2Z19nmVZpFU7EKflkkuiemLV+xBbOEyURMi58JX\n65EMZZp9uq/82VR1anLOurqRmu+395NfJo3s7TDRRs/ka2KVb6xuy0FTZpVCLiB/\neWElD2v5vBPH8tpYQz2igdsRC0eljjjZfYcg3x7m7+qLQi1qm8Z7gWQEQNiHfPUj\nQ3Bf1bZa9qFOXxmJViQC7lYM4Gv8OYvNaO8putMk2MYsxAFMo8F4P0qAolQzLrLy\n/bhGv2jb0+BEDiTnvD4kyjO9ikAY/i/vn272RSciewKBgQD+mpyRJ3cvjJP40tqo\nHetZNnK/gl3oWElIPTqgRW26DrrzhE3gHAKl+jD5ffsQVeuFZ3qVj1PEEwT6EDuI\n6N+wCxzmEBdEjJDtiZx3Fa43ZstKMjitLxeBfXWpdyMU7D548E2kZkb4Ue5U7WAy\nKfaCuEIcGFpM52JExXMolAdSPwKBgQDvA9c7SYHt54ikE/mmwXXqvf94NDvhCOVr\nzuZ0hHwvKnhmT5QwM7sUvpsk/8u8mNYhHBpr9q7v70B5+lNs4fJN48fwc8Tu5uLr\nky65W3wPdJseNJbH349tIpsfQ67pa/KDq45Al6Gd8N4hrsP1CnFd3SWSJrgaoct+\nUW/De6Fl0wKBgQDhhosReOf2UovwaLYPHRGP4M8cHJqaaTngp3v65AUiPlITyypA\nTg96fnhLR/DQs4sAjHzlZiRJFp/d8esKh109T1q136L8sZbfEnpqceX0ZTXF716M\n6Z3ksgE7r7B/pBRihFoCOia7Z7e5utrvFISrnhPRVzEF1iAR0uUDGLyzeQKBgQDK\nygNu9esbInq4W4pRhYq6ZAHAxvCW+alNUvoMmeuTSQFmLNaaHwn3i9CuD6mYlkP3\nS5TPTTkXsXKPC2iE1R90HnKg/Fh2KccWAIaAFbKomlKRyiSz6GYUPmxGlnJs8X2N\nYZ0MCJrDGn4dLd5spTOSY/NgkSFa1zOENSwSO26wqQKBgHWcJ66rk1HAtqBjt/iE\n5AjOvNUUIoboRnTgl/vBzMXIxhaIJ+DyJEUt387t2YzWPm4s+WqDRg1It6vo6bFT\n6s6kqDxXKZfXrf29LnupeO33iSy7K8AETu51YQ7JA2x25xxoc3uP/OGGOe4DyvJD\nAGE5aYfzUwZIoS8OK92kdIKb\n-----END PRIVATE KEY-----\n",
-  "client_email": "cloud-cdn@canavi-dev.iam.gserviceaccount.com",
-  "client_id": "101227301470934852879",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cloud-cdn%40canavi-dev.iam.gserviceaccount.com"
+  //"type": "service_account",
+  //"project_id": "canavi-dev",
+  //"private_key_id": "aced1866abbb897d19dc58b0ae037bbff19f198f",
+  //"private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDttioKKccIjK/y\n6KncWgYYD0U/PgeU3tH+evQMeIH9bgOPR7BNDErerDGmXmM+JbCkI2uwi1U45sJ3\nLYiHsShSY1GUVH4mWapYp3Nd2ID3FG/hj97VwT+MHa74Rsi5VSl783iM60qaMO3q\nZCpdWjEASqMWIa3uliYKGgmbr8zGaKVqDcyQ14NpqclVeC0lYaSLjooRU5C1uhBg\nkkXMoyatD4aLgNwT6Q+KtXFnOwvUOYrn1ue0MgoHnfBbw/V9DPYiJeXZjakQM5il\nAR64W1Isp+Qa2JFP0q2utQjYcqzDuCx1+ZKPf7XoNvtuKr0/mdMFu5OLh3oxe3b9\ngPTkGqTtAgMBAAECggEAC69QKra6A2gTABBCxUOhmA4sG7s7WSyIywcVNwW3chM1\n1pWyC1+G0KJLQH/URgpJQBBDq2Z19nmVZpFU7EKflkkuiemLV+xBbOEyURMi58JX\n65EMZZp9uq/82VR1anLOurqRmu+395NfJo3s7TDRRs/ka2KVb6xuy0FTZpVCLiB/\neWElD2v5vBPH8tpYQz2igdsRC0eljjjZfYcg3x7m7+qLQi1qm8Z7gWQEQNiHfPUj\nQ3Bf1bZa9qFOXxmJViQC7lYM4Gv8OYvNaO8putMk2MYsxAFMo8F4P0qAolQzLrLy\n/bhGv2jb0+BEDiTnvD4kyjO9ikAY/i/vn272RSciewKBgQD+mpyRJ3cvjJP40tqo\nHetZNnK/gl3oWElIPTqgRW26DrrzhE3gHAKl+jD5ffsQVeuFZ3qVj1PEEwT6EDuI\n6N+wCxzmEBdEjJDtiZx3Fa43ZstKMjitLxeBfXWpdyMU7D548E2kZkb4Ue5U7WAy\nKfaCuEIcGFpM52JExXMolAdSPwKBgQDvA9c7SYHt54ikE/mmwXXqvf94NDvhCOVr\nzuZ0hHwvKnhmT5QwM7sUvpsk/8u8mNYhHBpr9q7v70B5+lNs4fJN48fwc8Tu5uLr\nky65W3wPdJseNJbH349tIpsfQ67pa/KDq45Al6Gd8N4hrsP1CnFd3SWSJrgaoct+\nUW/De6Fl0wKBgQDhhosReOf2UovwaLYPHRGP4M8cHJqaaTngp3v65AUiPlITyypA\nTg96fnhLR/DQs4sAjHzlZiRJFp/d8esKh109T1q136L8sZbfEnpqceX0ZTXF716M\n6Z3ksgE7r7B/pBRihFoCOia7Z7e5utrvFISrnhPRVzEF1iAR0uUDGLyzeQKBgQDK\nygNu9esbInq4W4pRhYq6ZAHAxvCW+alNUvoMmeuTSQFmLNaaHwn3i9CuD6mYlkP3\nS5TPTTkXsXKPC2iE1R90HnKg/Fh2KccWAIaAFbKomlKRyiSz6GYUPmxGlnJs8X2N\nYZ0MCJrDGn4dLd5spTOSY/NgkSFa1zOENSwSO26wqQKBgHWcJ66rk1HAtqBjt/iE\n5AjOvNUUIoboRnTgl/vBzMXIxhaIJ+DyJEUt387t2YzWPm4s+WqDRg1It6vo6bFT\n6s6kqDxXKZfXrf29LnupeO33iSy7K8AETu51YQ7JA2x25xxoc3uP/OGGOe4DyvJD\nAGE5aYfzUwZIoS8OK92kdIKb\n-----END PRIVATE KEY-----\n",
+  //"client_email": "cloud-cdn@canavi-dev.iam.gserviceaccount.com",
+  //"client_id": "101227301470934852879",
+  //"auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  //"token_uri": "https://oauth2.googleapis.com/token",
+  //"auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  //"client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cloud-cdn%40canavi-dev.iam.gserviceaccount.com"
 }
