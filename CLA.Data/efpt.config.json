@@ -1,0 +1,63 @@
+﻿{
+   "ContextClassName": "CLAContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "DoNotCombineNamespace": false,
+   "IdReplace": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": null,
+   "ProjectRootNamespace": "CLA.Data",
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Authors]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Course]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[CourseGroup]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Events]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[News]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Posts]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[StudentNeedAdvisory]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Tags]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Teachers]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[TestLevel]"
+      }
+   ],
+   "UseDatabaseNames": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseSpatial": false
+}
