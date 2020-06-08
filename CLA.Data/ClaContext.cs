@@ -27,6 +27,14 @@ namespace CLA.Data
         public virtual DbSet<Teachers> Teachers { get; set; }
         public virtual DbSet<TestLevel> TestLevel { get; set; }
 
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            if (!optionsBuilder.IsConfigured)
+            {
+                optionsBuilder.UseSqlServer("Server=quanph.database.windows.net;Database=CLA;uid=quanph;pwd:sa12345a@;Trusted_Connection=True;");
+            }
+        }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Authors>(entity =>
