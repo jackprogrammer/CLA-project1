@@ -17,6 +17,7 @@ namespace CLA.Data
         }
 
         public virtual DbSet<Authors> Authors { get; set; }
+        public virtual DbSet<Banner> Banner { get; set; }
         public virtual DbSet<Course> Course { get; set; }
         public virtual DbSet<CourseGroup> CourseGroup { get; set; }
         public virtual DbSet<Events> Events { get; set; }
@@ -61,6 +62,25 @@ namespace CLA.Data
                 entity.Property(e => e.Position)
                     .IsRequired()
                     .HasMaxLength(255);
+
+                entity.Property(e => e.UpdatedDate).HasColumnType("datetime");
+            });
+
+            modelBuilder.Entity<Banner>(entity =>
+            {
+                entity.Property(e => e.Id)
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.BannerName)
+                    .IsRequired()
+                    .HasMaxLength(512);
+
+                entity.Property(e => e.CreatedDate).HasColumnType("datetime");
+
+                entity.Property(e => e.ImageUrl)
+                    .IsRequired()
+                    .HasMaxLength(1024);
 
                 entity.Property(e => e.UpdatedDate).HasColumnType("datetime");
             });

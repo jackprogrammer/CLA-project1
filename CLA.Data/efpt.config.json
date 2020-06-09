@@ -18,6 +18,10 @@
       },
       {
          "HasPrimaryKey": true,
+         "Name": "[dbo].[Banner]"
+      },
+      {
+         "HasPrimaryKey": true,
          "Name": "[dbo].[Course]"
       },
       {
