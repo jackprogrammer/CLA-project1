@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using CLA.Data;
+using CLA.Models.Model;
 using CLA.Service.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -26,7 +27,5 @@ namespace CLA.Service.Implements
             var rs = await UpdateAsync(item, item.Id);
             return rs == null ? string.Empty : rs.Id;
         }
-
-        
     }
 }

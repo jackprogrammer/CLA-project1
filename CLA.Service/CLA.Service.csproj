@@ -11,6 +11,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CLA.Data\CLA.Data.csproj" />
+    <ProjectReference Include="..\CLA.Models\CLA.Models.csproj" />
   </ItemGroup>
 
 </Project>
